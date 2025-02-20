@@ -15,6 +15,8 @@ function App() {
   const [isTopOfPage, setIsTopOfPage] = useState(true);
   const isAboveMediumScreens = useMediaQuery("(min-width : 1060px)");
 
+  // Test
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY === 0) setIsTopOfPage(true);
